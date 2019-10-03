@@ -55,6 +55,16 @@ th {
     padding-left: 47px;
 }
 
+.score {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .play-column {
     width: 250px;
     display: flex;
@@ -74,12 +84,20 @@ th {
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
+    text-align: center;
 }
 
 .play__row:before {
     content: "";
     position: absolute;
     background-color: #ff9c00;
+}
+
+.play__row_final:before {
+    height: 2px;
+    width: 97px;
+    top: 20px;
+    right: -97px;
 }
 
 .play__row:after {
