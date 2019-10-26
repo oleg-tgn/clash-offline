@@ -249,10 +249,26 @@ th {
 .main-title {
     position: relative;
     font-size: 45px;
-    margin-bottom: -50px;
 }
 
 .sub-title {
     font-size:30px;
     display: block;
 }
+
+.registration-btn {
+    background-color: #ff9c00;
+    border-color: #ff9c00;
+}
+
+.registration-btn:hover,
+.registration-btn:active {
+    background-color: #ffac10 !important;
+    border-color: #ffac10 !important;
+}
+.registration-btn:focus,
+.registration-btn:active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 172, 16,.5) !important;
+}
+
+
