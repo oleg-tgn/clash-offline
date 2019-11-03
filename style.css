@@ -658,6 +658,10 @@ a, a:hover {
     margin-top: 70px;
 }
 
+.main-article__image {
+    background-size: cover !important;
+}
+
 @media (max-width: 575.98px) {
     .contact {
         margin-bottom: 20px;
