@@ -666,6 +666,11 @@ a, a:hover {
     .footer {
         margin-bottom: 20px;
     }
+
+    .main-article__image {
+        background-position: center !important; 
+        background-size: cover !important;
+    }
 }
 
 .contact__link {
