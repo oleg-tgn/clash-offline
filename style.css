@@ -733,3 +733,13 @@ a, a:hover {
         font-size: 20px;
     }
 }
+
+.play__link {
+    display: block;
+    color: #ddd;
+}
+
+.play__link:hover {
+    color: #ff9c00;
+    text-decoration: none;
+}
