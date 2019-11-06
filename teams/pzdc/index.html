@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Оффлайн Турнир по Leagua of Legends в г. Таганроге</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+<body>
+<div class="wrapper">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section class="container">
+      <a class="navbar-brand" href="/">Clash Offline</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Главная</a>
+          </li>
+         <!--  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Трансляции
+            </a> 
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item active" href="#">10 ноября 2019 (Финал ЧМ LoL)</a>
+              <a class="dropdown-item" href="#">16 октября (10 лет LoL)</a>
+            </div>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Турниры
+            </a> 
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/2019/11/30/">30 ноября 2019</a>
+              <a class="dropdown-item" href="/2019/10/5/">5 октября 2019</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Команды <span class="sr-only">(current)</span>
+            </a> 
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/teams/team-venum/">Team Venum</a>
+              <a class="dropdown-item active" href="/teams/ave-teemo/">Ave Teemo</a>
+              <a class="dropdown-item" href="/teams/pzdc/">PZDC</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+          <li class="nav-item" style="padding: 0 10px">
+            <a href="https://vk.com/clash_offline_lol" target="_blank"><img src="../../vk-brands.svg" width="40"></a>
+          </li>
+          <li class="nav-item" style="padding: 0 10px">
+            <a href="https://www.youtube.com/channel/UChaA9krZaM5qgR6-u0YE2pA/f" target="_blank"><img src="../../youtube-brands.svg" width="40"></a>
+          </li>
+        </ul>
+    </div>
+    </section>
+</nav>
+    <section class="container">
+        <h1 class="title main-title" style="margin-bottom: 0;">
+            <span>
+            Clash Offline - League&nbsp;of&nbsp;Legends
+            </span><br>
+        </h1>
+
+        
+        <h1 class="title">
+            <span style="font-size:30px; display: block;">Team Venum</span>
+        </h1>
+
+
+        <table class="teams__table table table-striped table-dark">
+        <tbody>
+          <tr><!-- 1 -->
+            <td cl><div class="teams__photo" style="background: url(photos/profileIcon1438.jpg);"></div></td>
+            <td scope="col"><p class="teams__name">Бенджамин Диалло<br><big class="teams__nik">Жопка Сэра Ёжика</big></p></td>
+          </tr>
+          <tr><!-- 2 -->
+            <td><div class="teams__photo" style="background: url(photos/dmb.jpg);"></div></td>
+            <td><p class="teams__name">Дмитрий Белянский<br><big class="teams__nik">dmb</big></p></td>
+          </tr>
+          <tr><!-- 3 -->
+            <td><div class="teams__photo" style="background: url(photos/Snegock1995.jpg);"></div></td>
+            <td><p class="teams__name">Максим Гущенко<br><big class="teams__nik">Snegock1995</big></p></td>
+          </tr>
+          <tr><!-- 5 -->
+            <td><div class="teams__photo" style="background: url(photos/3556.jpg);"></div></td>
+            <td><p class="teams__name">Роман Жарников<br><big class="teams__nik">гоксу</big></p></td>
+          </tr>
+          <tr><!-- 5 -->
+            <td><div class="teams__photo" style="background: url(photos/StupidAshe.jpg);"></div></td>
+            <td><p class="teams__name">Анна Лагода<br><big class="teams__nik">StupidAshe</big></p></td>
+          </tr>
+        </tbody>
+      </table><!-- end team table-->
+    </section><!--.container-->
+  
+
+    <footer class="footer">
+      <hr style="border-top: 1px solid #bbb">
+      <section class="container">
+      <div class="row">
+        <div class="contact col-12 col-sm-6">
+          <span style="color: #bbb">По вопросам сотрудничества:</span><br>
+          <span style="color: #bbb"><a href="https://vk.com/redvk" target="_blank" class="contact__link">Андрей Сорокин</a> +7 (900) 135-85-22</span><br>
+          <span style="color: #bbb"><a href="https://vk.com/stelmah_o" target="_blank" class="contact__link">Олег Стельмах</a> +7 (951) 493-52-92</span>
+        </div>
+      
+        <ul class="navbar-nav flex-row ml-sm-auto d-md-flex">
+          <li class="nav-item" style="padding: 0 10px">
+            <a href="https://vk.com/clash_offline_lol" target="_blank"><img src="../../vk-brands.svg" width="40"></a>
+          </li>
+          <li class="nav-item" style="padding: 0 10px">
+            <a href="https://www.youtube.com/channel/UChaA9krZaM5qgR6-u0YE2pA/f" target="_blank"><img src="../../youtube-brands.svg" width="40"></a>
+          </li>
+        </ul>
+      </div>
+      </section>
+    </footer>
+    </div><!-- end wrapper-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
