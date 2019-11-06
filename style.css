@@ -680,3 +680,56 @@ a, a:hover {
 .contact__link {
     color: #bbb;
 } 
+
+.teams__table td {
+    padding: 0;
+    vertical-align: middle;
+}
+
+.teams__photo {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 25px auto;
+    background-position: center!important;
+    border-radius: 50%;
+    background-size: 100px!important;
+}
+.teams__photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.teams__name {
+    padding: 0;
+    margin: 0;
+}
+
+.teams__nik {
+    color: #ffac10;
+    font-size: 30px;
+}
+
+.teams__table {
+    margin-top: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 575.98px) {
+    .teams__photo {
+        width: 60px;
+        height: 60px;
+        margin: 15px auto;
+        background-size: 70px!important;
+    }
+
+    .teams__name { 
+        padding: 0 20px;
+    }
+
+    .teams__nik {
+        font-size: 20px;
+    }
+}
