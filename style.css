@@ -853,6 +853,7 @@ a, a:hover {
 
 .helpers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -861,6 +862,27 @@ a, a:hover {
 .helpers span {
     display:inline-block;
     margin: 0 20px;
+}
+
+@media (max-width: 991.9px) {
+    .helpers a,
+    .helpers span {
+        margin: 10px 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.9px) {
+    .helpers a,
+    .helpers span {
+        margin: 10px 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .helpers a,
+    .helpers span {
+        margin: 10px 15px;
+    }
 }
 
 .helpers a:hover,
