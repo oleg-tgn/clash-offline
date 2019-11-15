@@ -901,6 +901,7 @@ a, a:hover {
 .pg19 {
     width: 150px;
     height: 70px;
+    background-image: url(2019/11/30/logos/pg19_col.svg);
     background-image: url(2019/11/30/logos/pg19.svg);
     background-repeat: no-repeat;
 }
@@ -913,6 +914,7 @@ a, a:hover {
     width: 190px;
     height: 59px;
     background-size: contain;
+    background-image: url(2019/11/30/logos/ino_color.svg);
     background-image: url(2019/11/30/logos/ino.svg);
     background-repeat: no-repeat;
 }
@@ -925,6 +927,7 @@ a, a:hover {
     width: 270px;
     height: 59px;
     background-size: contain;
+    background-image: url(2019/11/30/logos/dist_hover.svg);
     background-image: url(2019/11/30/logos/dist.svg);
     background-repeat: no-repeat;
     background-position: 0 50%; 
