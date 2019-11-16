@@ -87,7 +87,8 @@ body {
     position: absolute;
     background: url(2019/11/30/logos/dist_hover.svg), 
                 url(2019/11/30/logos/ino_color.svg),
-                url(2019/11/30/logos/pg19_col.svg);
+                url(2019/11/30/logos/pg19_col.svg),
+                url(2019/11/30/logos/sait_hover.svg);
 
     top: -1000000px;   
 }
@@ -942,6 +943,19 @@ a, a:hover {
 
 .dist:hover {
     background-image: url(2019/11/30/logos/dist_hover.svg);
+}
+
+.sait {
+    width: 270px;
+    height: 59px;
+    background-size: contain;
+    background-image: url(2019/11/30/logos/sait.svg);
+    background-repeat: no-repeat;
+    background-position: 0 50%; 
+}
+
+.sait:hover {
+    background-image: url(2019/11/30/logos/sait_hover.svg);
 }
 
 .helpers a.off-sponsor {
