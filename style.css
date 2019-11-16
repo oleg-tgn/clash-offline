@@ -994,3 +994,9 @@ a, a:hover {
         margin: 15px 0;
     }
 }
+
+.tournament__rules {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+}
