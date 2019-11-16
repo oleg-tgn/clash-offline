@@ -881,6 +881,13 @@ a, a:hover {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .helpers a,
+    .helpers span {
+        margin: 10px 30px;
+    }
+}
+
 @media (max-width: 575.98px) {
     .helpers a,
     .helpers span {
@@ -936,7 +943,7 @@ a, a:hover {
 }
 
 .sait {
-    width: 270px;
+    width: 196px;
     height: 59px;
     background-size: contain;
     background-image: url(2019/11/30/logos/sait.svg);
