@@ -776,7 +776,7 @@ a, a:hover {
     margin: 25px auto;
     background-position: center!important;
     border-radius: 50%;
-    background-size: 100px!important;
+    background-size: contain!important;
 }
 .teams__photo img {
     width: 100%;
@@ -999,4 +999,8 @@ a, a:hover {
     max-width: 800px;
     margin: 20px auto;
     font-size: 18px;
+}
+
+.title-comand {
+    text-transform: none;
 }
