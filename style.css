@@ -1004,3 +1004,26 @@ a, a:hover {
 .title-comand {
     text-transform: none;
 }
+
+.rotate {    
+    width: 100px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.rotate span {
+
+    transform: rotate(-90deg); 
+}
+
+.team-link {
+    display: block;
+    width: 100%; 
+    height: 100%;
+    color: #ddd;
+    font-size: 22px;
+}
+
+.team-link:hover {
+    color: #ffac10;
+}
