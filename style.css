@@ -1088,3 +1088,44 @@ a, a:hover {
 .diagonal {
     background: #95999c;
 }
+
+.sub-navbar {
+    background: #777;
+}
+
+.sub-navbar .sub-navbar__link {
+    color: #fff;
+}
+
+.sub-navbar .sub-navbar__link.active,
+.sub-navbar .sub-navbar__link:hover {
+    color: #ddd;
+}
+
+
+.sub-navbar .sub-navbar__link {
+    color: #fff;
+}
+
+.teams-tournament-timetable {
+    font-size: 18px;
+}
+
+.teams-tournament-timetable td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*.teams-tournament-timetable span {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+}*/
+
+.timetable__link {
+    color: #ddd;
+}
+
+.timetable__link:hover {
+    color: #ffac10;
+}
