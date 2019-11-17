@@ -1022,8 +1022,15 @@ a, a:hover {
     height: 100%;
     color: #ddd;
     font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .team-link:hover {
     color: #ffac10;
+}
+
+.teams-tournament td {
+    padding-top: 0;
+    padding-bottom: 0;
 }
