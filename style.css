@@ -1026,11 +1026,65 @@ a, a:hover {
     padding-bottom: 15px;
 }
 
+.teams-tournament th {
+    text-transform: none;
+}
+
+.teams-tournament__num {
+    width: 64px;
+}
+
+@media (max-width: 575.98px) {
+    .teams-tournament td, .teams-tournament th {
+        padding: .5rem;
+        font-size: 14px;
+    }
+
+    .teams-tournament__num {
+       width: 28px;
+    }
+
+    .teams-tournament td {
+        height: 35px;
+        vertical-align: middle;
+    }
+
+    .teams-tournament {
+        font-size: 14px;
+    }
+    .team-link {
+        display: inline;
+        font-size: 14px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .teams-tournament__number {
+        padding: .3rem;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .teams-tournament td, .teams-tournament th {
+        padding: .3rem;
+        font-size: 12px;
+    }
+}
+
 .team-link:hover {
     color: #ffac10;
+}
+
+.teams-tournament td,
+.teams-tournament th {
+    vertical-align: middle;
 }
 
 .teams-tournament td {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.diagonal {
+    background: #95999c;
 }
