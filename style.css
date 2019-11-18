@@ -27,6 +27,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-vk:before {
+  content: "\e906";
+  color: #ddd;
+}
+.icon-youtube:before {
+  content: "\e908";
+  color: #ddd;
+}
+
 .icon-sic:before {
   content: "\e907";
   color: #ddd;
@@ -1109,6 +1118,7 @@ a, a:hover {
 .sub-navbar .sub-navbar__link {
     color: #ddd;
 }
+
 @media (max-width: 575.98px) {
     .sub-navbar .sub-navbar__link {
         color: #fff;
@@ -1117,8 +1127,6 @@ a, a:hover {
         padding-right: 8px;
     }
 }
-
-
 
 .sub-navbar .sub-navbar__link.active,
 .sub-navbar .sub-navbar__link:hover {
