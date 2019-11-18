@@ -1107,7 +1107,7 @@ a, a:hover {
 }
 
 .sub-navbar .sub-navbar__link {
-    color: #fff;
+    color: #ddd;
 }
 @media (max-width: 575.98px) {
     .sub-navbar .sub-navbar__link {
@@ -1122,7 +1122,7 @@ a, a:hover {
 
 .sub-navbar .sub-navbar__link.active,
 .sub-navbar .sub-navbar__link:hover {
-    color: #ddd;
+    color: #fff;
 }
 
 
