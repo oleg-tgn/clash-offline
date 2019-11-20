@@ -1187,3 +1187,7 @@ a, a:hover {
 .timetable__link:hover {
     color: #ffac10;
 }
+
+.center-num {
+    text-align: center;
+}
