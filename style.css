@@ -938,6 +938,13 @@ a, a:hover {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 575.98px) {
+    .ino {
+        width: 150px;
+        height: 46px;
+    }
+}
+
 .ino:hover {
     background-image: url(2019/11/30/logos/ino_color.svg);
 }
@@ -962,6 +969,13 @@ a, a:hover {
     background-image: url(2019/11/30/logos/sait.svg);
     background-repeat: no-repeat;
     background-position: 0 50%; 
+}
+
+@media (max-width: 575.98px) {
+    .sait {
+        width: 150px;
+        height: 45px;
+    }
 }
 
 .sait:hover {
@@ -1190,4 +1204,66 @@ a, a:hover {
 
 .center-num {
     text-align: center;
+}
+
+.icon-pir {
+    font-size: 80px;
+}
+
+.icon-1698 {
+    font-size: 27px;
+}
+
+.icon-pit_kofe {
+    font-size: 45px;
+}
+
+.icon-nyc {
+    font-size: 70px;
+}
+
+.icon-old_school {
+    font-size: 40px;
+}
+
+.icon-sixty {
+    font-size: 45px;
+}
+
+.icon-sic {
+    font-size: 45px;
+}
+
+@media (max-width: 575.98px) {
+    .helpers a {
+        margin: 10px;
+    }
+
+    .icon-pir {
+        font-size: 55px;
+    }
+
+    .icon-1698 {
+        font-size: 22px;
+    }
+
+    .icon-pit_kofe {
+        font-size: 40px;
+    }
+
+    .icon-nyc {
+        font-size: 45px;
+    }
+
+    .icon-old_school {
+        font-size: 30px;
+    }
+
+    .icon-sixty {
+        font-size: 30px;
+    }
+
+    .icon-sic {
+        font-size: 30px;
+    }
 }
