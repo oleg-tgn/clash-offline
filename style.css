@@ -220,11 +220,12 @@ th.final {
 }
 
 .play__row {
-    font-size: 13px;
+    font-size: 15px;
     height: 50px;
     line-height: 50px;
     color: #fff;
-    border: 1px solid #ff9c00;
+    border: 1px solid #ddd;
+    /*border: 1px solid #ff9c00;*/
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
@@ -234,13 +235,15 @@ th.final {
 .play__row:before {
     content: "";
     position: absolute;
-    background-color: #ff9c00;
+    background-color: #ddd;
+    /*background-color: #ff9c00;*/
 }
 
 .play__row:after {
     content: "";
     position: absolute;
-    background-color: #ff9c00;
+    background-color: #ddd;
+    /*background-color: #ff9c00;*/
 }
 
 .play-middle:before {
@@ -836,7 +839,9 @@ a, a:hover {
 }
 
 .play__link:hover {
-    color: #ff9c00;
+    color: #101010;
+    background: #bbb;
+    /*color: #ff9c00;*/
     text-decoration: none;
 }
 
