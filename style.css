@@ -1221,6 +1221,12 @@ a, a:hover {
     text-align: center;
 }
 
+@media (min-width: 576px) {
+    .center-num {
+         width: 55px;
+    }
+}
+
 .icon-pir {
     font-size: 80px;
 }
