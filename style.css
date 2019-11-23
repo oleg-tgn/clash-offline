@@ -1067,6 +1067,16 @@ a, a:hover {
     font-size: 18px;
 }
 
+.tournament__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tournament__link:hover {
+    color: #ffac10;
+    text-decoration: underline;
+}
+
 @media (max-width: 575.98px) {
     .tournament__rules {
         font-size: 16px;
