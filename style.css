@@ -56,16 +56,16 @@
   content: "\e903";
   color: #ddd;
 }
-.icon-pir:before {
-  content: "\e904";
-  color: #ddd;
-}
+
 .icon-pit_kofe:before {
   content: "\e905";
   color: #ddd;
 }
 
-
+.icon-paintroom:before {
+  content: "\e904";
+  color: #ddd;
+}
 
 /*END FONTS*/
 
@@ -1249,8 +1249,8 @@ a, a:hover {
     }
 }
 
-.icon-pir {
-    font-size: 80px;
+.icon-paintroom {
+    font-size: 35px;
 }
 
 .icon-1698 {
