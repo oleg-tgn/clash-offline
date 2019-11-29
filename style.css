@@ -1342,6 +1342,7 @@ a, a:hover {
     margin-top: 50px;
 }
 
-.marmelad-table .play__row_middle_first:after {
+.marmelad-table .play__row_middle_first:after,
+.marmelad-table .play__row_two_middle_first:after {
         height: 198px!important;
 }
