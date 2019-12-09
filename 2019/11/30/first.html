@@ -7,9 +7,7 @@
     <title>Оффлайн Турнир по League of Legends в г. Таганроге</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
     
-
-    
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="../../../style.css">
 </head>
@@ -81,96 +79,155 @@
     <section class="container">
         <nav class="nav nav-underline sub-navbar__nav">
             <a class="nav-link sub-navbar__link" href="index.html">Финальная стадия</a>
-            <a class="nav-link sub-navbar__link" href="index.html">Предварительная стадия</a>
+            <a class="nav-link sub-navbar__link active" href="index.html">Предварительная стадия</a>
             <a class="nav-link sub-navbar__link" href="reglament.html">Регламент</a>
-            <a class="nav-link sub-navbar__link active" href="timetable.html">Расписание</a>
+            <a class="nav-link sub-navbar__link" href="timetable.html">Расписание</a>
         </nav>
     </section>
 </div>
 
     <section class="container">
-        <h1 class="title main-title" style="margin-bottom: 0; font-size: 30px;">
+        <h1 class="title main-title" style="margin-bottom: 0;">
             <span>
             Clash Offline - League&nbsp;of&nbsp;Legends<br>
             Турнир&nbsp;#2
             </span>
         </h1>
+    <p style="color:#fff; text-align: left" class="tournament__rules">
+      С&nbsp;16&nbsp;по&nbsp;28&nbsp;ноября проходит предварительная стадия турнира.
+      Четыре лучшие команды выходят в&nbsp;финальную стадию, которая пройдет на&nbsp;главной сцене ТРЦ&nbsp;&laquo;Мармелад&raquo;, г.&nbsp;Таганрог, 30&nbsp;ноября.
+    </p>
 
-        <h4 class="title sub-title" style="font-size: 20px;"><span>Расписание</span></h4>
+    <p style="color:#fff; text-align: left" class="tournament__rules">
+      В финальную стадию турнира выходят команды:<br>
+      - <a href="/teams/donstucked-on-chall/" class="tournament__link">DonSTUcked on Chall</a><br>
+      - <a href="/teams/easy-game-team/" class="tournament__link">Easy Game Team</a><br>
+      - <a href="/teams/x9/" class="tournament__link">x9</a><br>
+      - <a href="/teams/venum/" class="tournament__link">Venum</a>
+    </p>
 
-    <table class="teams-tournament teams-tournament-timetable col-12 col-lg-10 table table-dark table-hover table-bordered" style="margin: 50px auto">
-        <thead>
-           <th>#</th>
-           <th>Дата</th>
-           <th>20:00</th>
-           <th>21:30</th>
-        </thead>
+
+    <table class="teams-tournament col-12 col-lg-10 table table-dark table-hover table-bordered" style="margin: 50px auto">
+         <thead>
+            <tr>
+              <th class="center-num" scope="col">#</th>
+              <th class="" scope="col">Команда</th>
+              <th class="center-num">1</th>
+              <th class="center-num">2</th>
+              <th class="center-num">3</th>
+              <th class="center-num">4</th>
+              <th class="center-num">5</th>
+              <th class="center-num">6</th>
+              <th class="center-num">7</th>
+              <th class="center-num">&sum;</th><!-- Итог -->
+            </tr>
+          </thead>
         <tbody>
           <tr><!-- 1 -->
-            <th scope="row">1</th>
+            <th class="center-num" scope="row">1</th>
             <td>
-                20.11 (Среда)
+                <a class="team-link" href="/teams/donstucked-on-chall/">DonSTUcked on Chall</a>
             </td>
-            <td>
-                <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span><br>
-                <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span> / <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span><br>
-                <span><a class="timetable__link" href="/teams/x9/">x9</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span><br>
-               <br>
-            </td>
-            <td>
-                <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span><br>
-                <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span> / <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span><br>
-                <span><a class="timetable__link" href="/teams/team-special/">TS</a></span> / <span><a class="timetable__link" href="/teams/x9/">x9</a></span><br>
-               <br>
-            </td>
+            <td class="table-active">&nbsp;</td><!-- 1 -->
+            <td class="center-num">1</td><!-- EGT -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="center-num">1</td><!-- SM -->
+            <td class="center-num">1</td><!-- TS -->
+            <td class="center-num">1</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x9 -->
+            <td class="center-num">5</td><!-- Итог -->
           </tr>
-          <tr><!-- 1 -->
-            <th scope="row">2</th>
+          <tr><!-- 2 -->
+            <th class="center-num" scope="row">2</th>
             <td>
-                21.11 (Четверг)
+                <a class="team-link" href="/teams/easy-game-team/">Easy Game Team</a>
             </td>
-            <td>
-               <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span><br>
-               <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span> / <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span><br>
-               <span><a class="timetable__link" href="/teams/team-special/">TS</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span><br>
-            </td>
-            <td>
-               <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/team-special/">TS</a></span><br>
-               <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span><br>
-               <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span> / <span><a class="timetable__link" href="/teams/x9/">x9</a></span><br>
-            </td>
+            <td class="center-num">0</td><!-- DOC -->
+            <td class="table-active">&nbsp;</td><!-- 2 -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="center-num">0.5</td><!-- SM -->
+            <td class="center-num">1</td><!--TS -->
+            <td class="center-num">1</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x9 -->
+            <td class="center-num">3.5</td><!-- Итог -->
           </tr>
-          <tr><!-- 1 -->
-            <th scope="row">3</th>
+          <tr><!-- 3 -->
+            <th class="center-num" scope="row">3</th>
             <td>
-                22.11 (Пятница)
+                <a class="team-link" href="/teams/hay-day/">Hay Day</a>
             </td>
-            <td>
-               <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span><br>
-               <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span> / <span><a class="timetable__link" href="/teams/x9/">x9</a></span><br>
-               <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span> / <span><a class="timetable__link" href="/teams/team-special/">TS</a></span>
-            </td>
-            <td>
-               <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/x9/">x9</a></span><br>
-               <span><a class="timetable__link" href="/teams/easy-game-team/">EGT</a></span> / <span><a class="timetable__link" href="/teams/team-special/">TS</a></span><br>
-               <span><a class="timetable__link" href="/teams/hay-day/">HD</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span>
-            </td>
+            <td class="center-num">0</td><!-- DOC -->
+            <td class="center-num">0</td><!-- EGT -->
+            <td class="table-active">&nbsp;</td><!-- 3 -->
+            <td class="center-num">0</td><!-- SM -->
+            <td class="center-num">0</td><!-- TS -->
+            <td class="center-num">0</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x9 -->
+            <td class="center-num">0</td><!-- Итог -->
           </tr>
-          <tr>
-            <th scope="row">4</th>
+          <tr><!-- 4 -->
+            <th class="center-num" scope="row">4</th>
             <td>
-                23.11 (Суббота)
-            </td>            
-            <td>
-                <span><a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a></span> / <span><a class="timetable__link" href="/teams/wsg/">WsG</a></span><br>
-                <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span> / <span><a class="timetable__link" href="/teams/x9/">x9</a></span><br>
-               <br>
+                <a class="team-link" href="/teams/sakamoto/">Sakamoto</a>
             </td>
+            <td class="center-num">0</td><!-- DOC -->
+            <td class="center-num">1</td><!-- EGT -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="table-active">&nbsp;</td><!-- 4 -->
+            <td class="center-num">0</td><!-- TS -->
+            <td class="center-num">1</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x0 -->
+            <td class="center-num">3</td><!-- Итог -->
+          </tr>
+          <tr><!-- 5 -->
+            <th class="center-num" scope="row">5</th>
             <td>
-               <span><a class="timetable__link" href="/teams/sakamoto/">SM</a></span> / <span><a class="timetable__link" href="/teams/team-special/">TS</a></span><br>
-               <br>
-               <br>
+                <a class="team-link" href="/teams/team-special/">Team Special</a>     
             </td>
+            <td class="center-num">0</td><!-- DOC -->
+            <td class="center-num">0</td><!-- EGT -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="center-num">1</td><!-- SM -->
+            <td class="table-active">&nbsp;</td><!-- 5 -->
+            <td class="center-num">0</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x9 -->
+            <td class="center-num">2</td><!-- Итог -->
+          </tr>
+          
+          <tr><!-- 6 -->
+            <th class="center-num" scope="row">6</th>
+            <td>
+                <a class="team-link" href="/teams/wsg/">(WsG)</a>   
+            </td>
+            <td class="center-num">0</td><!-- DOC -->
+            <td class="center-num">0</td><!-- EGT -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="center-num">0</td><!-- SM -->
+            <td class="center-num">1</td><!-- TS -->
+            <td class="table-active">&nbsp;</td><!-- WSG -->
+            <td class="center-num">0</td><!-- x9 -->
+            <td class="center-num">2</td><!-- Итог -->
+          </tr>
+          <tr><!-- 7 -->
+            <th class="center-num" scope="row">7</th>
+            <td>
+                <a class="team-link" href="/teams/x9/">x9</a>   
+            </td>
+            <td class="center-num">1</td><!-- DOC -->
+            <td class="center-num">1</td><!-- EGT -->
+            <td class="center-num">1</td><!-- HD -->
+            <td class="center-num">1</td><!-- SM -->
+            <td class="center-num">1</td><!-- TS -->
+            <td class="center-num">1</td><!-- WSG -->
+            <td class="table-active">&nbsp;</td><!-- 7 -->
+            <td class="center-num">6</td><!-- Итог -->
+          </tr>
+          <tr><!-- 8 -->
+            <th class="center-num" scope="row">8</th>
+            <td>
+                <a class="team-link" href="/teams/venum/">Venum</a>   
+            </td>
+            <td colspan="8" align="center" style="vertical-align: middle;">Команда проходит в финальную стадию турнира</td><!-- 1 -->
           </tr>
         </tbody>
       </table><!-- end team table-->
@@ -190,6 +247,9 @@
 
         <h4 class="title sub-title title_sponsor"><span>При поддержке</span></h4>  
         <p style="text-align: center" class="helpers">
+            <a href="https://vk.com/paintroom_tattoo" target="_blank">
+              <i class="icon-paintroom helpers__i"></i>
+            </a>
             <a href="http://www.pitcofe.ru/" target="_blank">
               <i class="icon-pit_kofe helpers__i"></i>
             </a>
@@ -212,7 +272,7 @@
     </section>
 
 
-               <footer class="footer">
+        <footer class="footer">
 
       <hr style="border-top: 1px solid #bbb">
       <section class="container">
@@ -237,15 +297,15 @@
       </section>
     </footer>
 </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5<a class="timetable__link" href="/teams/sakamoto/">SM</a>XKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-Jj<a class="timetable__link" href="/teams/sakamoto/">SM</a>Vgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, <a class="timetable__link" href="/teams/donstucked-on-chall/">DOC</a>ument, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
    ym(56132044, "init", {
         clickmap:true,
