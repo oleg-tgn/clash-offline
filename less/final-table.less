@@ -32,6 +32,7 @@
     margin: 40px 0;
     position: relative;
 
+
     @media (max-width: 991.9px) {
          padding: 0;
     }
@@ -60,15 +61,29 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
 
-    &__name {
+    &__link {
+        display: block;
+        width: ~"calc(100% - 38px)";
         padding: 10px 20px;
+        color: #fff;
+
+        &:hover {
+            background: #343a40;
+            color: #fff;
+            text-decoration: none;
+        }
 
         @media (max-width: 991.9px) {
             padding: 10px 10px;
             font-size: 13px;
         }
+    }
+
+    &__name {
+       
     }
 
     &__score {
